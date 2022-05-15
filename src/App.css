@@ -1,10 +1,30 @@
-.App {
+* {
+  margin:0;
+  padding:0;  
+  text-decoration: none;
   text-align: center;
 }
 
+h1 {
+  position: relative;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  padding: 50px;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+/* Class Selectors */
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  background: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +33,31 @@
   }
 }
 
-.App-header {
+.App-footer {
   background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  padding-top: 5%;
+}
+
+.App-main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #282c34;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0400ff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +67,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.project-section {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+}
+
+.project-section img {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.project-section-title {
+  width: 100vw;
+}
+
+
+/* ID selectors */
+#project-main {
+  flex-basis: 60%;
+  height: 60vh;
+  width: 50vw;
+  margin: 50px;
+}
+
+#projects {
+  flex-basis: 40%;
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+  margin: 50px;
+}
+
+#my-photo {
+  display: flex;
+  flex: 1 1 10%;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 30%;
+  margin: 20px auto;
+  border: 10px double black;
+}
+
+#linkedIn {
+  height: 15%;
+  width: 15%;
+}
+
+#left {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#right {
+  position: fixed;
+  right: 0;
+  top: 0;
 }
