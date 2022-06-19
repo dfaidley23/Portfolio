@@ -22,11 +22,11 @@ export default function PortfolioContainer() {
         <div className='App-main'>
             <header>
                 <img id='left' src={logo} className="App-logo" alt="logo" />
-                <nav>
+                <nav className='navlinks'>
                     <ul>
-                        <li> <Link to="/Portfolio">Home</Link> </li>
-                        <li> <Link to="/Work">Work</Link> </li>
-                        <li> <Link to="/Contact">Contact Me</Link> </li>
+                        <li> <Link to="/Portfolio" title="Home">Home</Link> </li>
+                        <li> <Link to="/Work" title="Work">Work</Link> </li>
+                        <li> <Link to="/Contact" title="Contact Me">Contact Me</Link> </li>
                     </ul>
                 </nav>
                 <img id='right' src={logo} className="App-logo" alt="logo" />
