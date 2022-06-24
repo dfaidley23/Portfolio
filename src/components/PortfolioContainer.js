@@ -64,7 +64,7 @@ export default function PortfolioContainer() {
               <Route path="/Contact"
                 element={<Contact github='https://github.com/dfaidley23/' linkedIn='https://www.linkedin.com/in/david-faidley-5208551a4/' gitIcon={Git} linkIcon={LinkedIn}/>}/>
             </Routes>
-            <footer className="App-footer">@ 2022 David's Portfolio</footer>
+            <footer className="App-footer"> ©2022 David's Portfolio</footer>
         </div>
     );
 };
