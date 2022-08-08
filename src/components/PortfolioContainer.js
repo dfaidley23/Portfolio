@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
             </header>
             <Routes>
               <Route path="/Portfolio"
-                element={<Home photo={myImg} resumeLink='https://drive.google.com/file/d/12EglZpy6AvmIqKdpTQHEzFZgDDupDCj8/view?usp=sharing' />}/>
+                element={<Home photo={myImg} resumeLink='https://drive.google.com/file/d/1pTGvYBBl8s3SmwgU_WcTgKSSVj4n6Pae/view?usp=sharing' />}/>
               <Route path="/Work" element=
                 {<Work 
                 main='Planting Planters'
