@@ -6,6 +6,12 @@
 }
 
 h1 {
+  border-top: 5px solid #0f53ff;
+  border-radius: 10%;
+  padding: 10px 0px;
+}
+
+h1, h2, h3 {
   color: #41aed6;
   position: relative;
   font-weight: bold;
@@ -53,8 +59,8 @@ nav, li {
 }
 
 .App-main {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #282c34;
   display: flex;
   flex-wrap: wrap;
